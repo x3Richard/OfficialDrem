@@ -1,0 +1,293 @@
+body {
+    background: rgba(0,0,0,1);
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: auto;
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+}
+
+.Header {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto;  
+    margin-top: -1%; 
+}
+
+.Logo {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Bar1 {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    height: 1px;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    position: relative;
+    z-index: 2;
+    font-size: 2vw ;
+    text-align: center;
+}
+
+.Space1 {
+    position: relative;
+    z-index: 2;
+    font-size: .1vw ;
+    text-align: center;
+}
+
+.Space2 {
+    position: relative;
+    z-index: 2;
+    font-size: 1vw ;
+    text-align: center;
+}
+
+.Space3 {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.Space4 {
+    position: relative;
+    z-index: 2;
+    font-size: .1vw ;
+    text-align: center;
+}
+
+.Bar2 {
+    position: relative;
+    z-index: 2;
+    width: 40%;
+    height: 1px;
+    margin-top: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Subtitle {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5vw ;
+    text-align: center;
+    color: rgb(170, 170, 170);
+}
+
+.IG {
+    position: relative;
+   z-index: 2;
+    display: block;
+    width: 50%;
+     height: auto;
+    margin-left: auto;
+     margin-right: auto;    }
+
+.YT {
+    position: relative;
+     z-index: 2;
+     display: block;
+     width: 50%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.SF {
+     position: relative;
+     z-index: 2;
+     display: block;
+     width: 50%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.Buytitle {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5vw ;
+    text-align: center;
+    color: rgb(170, 170, 170);
+}
+
+.BS {
+    position: relative;
+    z-index: 2;
+    display: block;
+    top: -2%;
+    width: 7%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Clickbait {
+    position: relative;
+    z-index: 2;
+    font-size: 1vw ;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+
+.PHClickbait {
+    display: none;
+}
+
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.Footer {
+    text-align: center;
+    font-size: 0.8vw ;
+    margin-bottom: 1%;
+}
+
+.bg-footer {
+    background: rgb(15, 15, 15) ;
+}
+
+@media(max-width: 780px) {
+    .Header {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        height: auto;  
+        margin-top: -9%; 
+    }
+    
+    .Logo {
+        position: relative;
+        z-index: 2;
+        display: block;
+        margin-top: 9%;
+        width: 25%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Bar1 {
+        position: relative;
+        z-index: 2;
+        width: 80%;
+        height: 1px;
+        margin-top: 9%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Subtitle {
+        position: relative;
+        z-index: 2;
+        font-size: 2vw ;
+        text-align: center;
+        color: rgb(170, 170, 170);
+    }
+    .IG {
+        position: relative;
+       z-index: 2;
+        display: block;
+        width: 13%;
+         height: auto;
+        margin-left: auto;
+         margin-right: auto;    }
+    
+    .YT {
+        position: relative;
+         z-index: 2;
+         display: block;
+         width: 13%;
+         height: auto;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    
+    .SF {
+         position: relative;
+         z-index: 2;
+         display: block;
+         width: 13%;
+         height: auto;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    .Grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .Space4 {
+        position: relative;
+        z-index: 2;
+        font-size: 1.5vw ;
+        text-align: center;
+    }
+    .Buytitle {
+        position: relative;
+        z-index: 2;
+        font-size: 2vw ;
+        text-align: center;
+        color: rgb(170, 170, 170);
+    }
+    .BS {
+        position: relative;
+        z-index: 2;
+        display: block;
+        top: -2%;
+        width: 11%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Clickbait {
+        display: none;
+    }
+    .PHClickbait {
+        display: block;
+        position: relative;
+        z-index: 2;
+        font-size: 1vw ;
+        text-align: center;
+        color: rgb(68, 68, 68);
+    }
+}
+
+@media(max-height: 560px) {
+    .Header {
+        position: absolute;
+        z-index: 1;
+        display: block;
+        width: 100%;
+        height: auto;  
+        margin-top: -9%; 
+    }
+    
+    .Logo {
+        position: relative;
+        z-index: 2;
+        display: block;
+        margin-top: 9%;
+        width: 25%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }        
+}
