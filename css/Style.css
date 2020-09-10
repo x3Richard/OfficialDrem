@@ -173,8 +173,7 @@ body {
         height: auto;  
         margin-top: -9%; 
     }
-    
-    .Logo {
+     .Logo {
         position: relative;
         z-index: 2;
         display: block;
@@ -219,8 +218,7 @@ body {
          margin-left: auto;
          margin-right: auto;
     }
-    
-    .SF {
+     .SF {
          position: relative;
          z-index: 2;
          display: block;
@@ -233,8 +231,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    .Space4 {
+   .Space4 {
         position: relative;
         z-index: 2;
         font-size: 1.5vw ;
@@ -279,7 +276,6 @@ body {
         height: auto;  
         margin-top: -9%; 
     }
-    
     .Logo {
         position: relative;
         z-index: 2;
