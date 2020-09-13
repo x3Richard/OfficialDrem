@@ -34,6 +34,15 @@ body {
     margin-right: auto;
 }
 
+.Swipe {
+    position: relative;
+    z-index: 2;
+    display: none;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Bar1 {
     position: relative;
     z-index: 2;
@@ -45,36 +54,10 @@ body {
     margin-right: auto;
 }
 
-.title {
-    position: relative;
-    z-index: 2;
-    font-size: 2vw ;
-    text-align: center;
-}
-
 .Space1 {
     position: relative;
     z-index: 2;
-    font-size: .1vw ;
-    text-align: center;
-}
-
-.Space2 {
-    position: relative;
-    z-index: 2;
-    font-size: 1vw ;
-    text-align: center;
-}
-
-.Space3 {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-}
-.Space4 {
-    position: relative;
-    z-index: 2;
-    font-size: .1vw ;
+    font-size: .01vw ;
     text-align: center;
 }
 
@@ -88,12 +71,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-.Subtitle {
+
+.Title {
     position: relative;
     z-index: 2;
     font-size: 1.5vw ;
+    margin-top: 3%;
     text-align: center;
-    color: rgb(170, 170, 170);
 }
 
 .IG {
@@ -103,7 +87,8 @@ body {
     width: 50%;
      height: auto;
     margin-left: auto;
-     margin-right: auto;    }
+     margin-right: auto;    
+    }
 
 .YT {
     position: relative;
@@ -125,19 +110,19 @@ body {
      margin-right: auto;
 }
 
-.Buytitle {
+.Subtitle {
     position: relative;
     z-index: 2;
     font-size: 1.5vw ;
+    margin-top: 3%;
     text-align: center;
-    color: rgb(170, 170, 170);
 }
 
 .BS {
     position: relative;
     z-index: 2;
     display: block;
-    top: -2%;
+    margin-top: 3%;
     width: 7%;
     height: auto;
     margin-left: auto;
@@ -148,8 +133,9 @@ body {
     position: relative;
     z-index: 2;
     font-size: 1vw ;
+    margin-top: 3%;
     text-align: center;
-    color: rgb(68, 68, 68);
+    color: rgb(128, 128, 128);
 }
 
 .PHClickbait {
@@ -160,12 +146,23 @@ body {
 .Grid {
     display: grid;
     grid-template-columns: repeat(5,1fr);
+    margin-top: 3%;
+}
+
+.Handwasher {
+    position: relative;
+    z-index: 2;
+    font-size: 1vw ;
+    text-align: center;
+    color: rgb(100, 100, 100);
+
 }
 
 .Footer {
     text-align: center;
     font-size: 0.8vw ;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
 }
 
 .bg-footer {
@@ -188,8 +185,18 @@ body {
         position: relative;
         z-index: 2;
         display: block;
-        margin-top: 35%;
+        margin-top: 30%;
         width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Swipe {
+        position: relative;
+        z-index: 2;
+        display: block;
+        margin-top: 30%;
+        width: 20%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -199,21 +206,16 @@ body {
         z-index: 2;
         width: 80%;
         height: 1px;
-        margin-top: 60%;
+        margin-top: 40%;
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    .title {
-        position: relative;
-        z-index: 2;
-        font-size: 6vw ;
-        text-align: center;
-    }
-    .Subtitle {
+    .Title {
         position: relative;
         z-index: 2;
         font-size: 5vw ;
+        margin-top: 10%;
         text-align: center;
         color: rgb(170, 170, 170);
     }
@@ -249,14 +251,13 @@ body {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    .Space4 {
+    .Handwasher {
         position: relative;
         z-index: 2;
-        font-size: 1.5vw ;
+        font-size: 3vw ;
         text-align: center;
     }
-    .Buytitle {
+    .Subtitle {
         position: relative;
         z-index: 2;
         font-size: 5vw ;
@@ -275,6 +276,7 @@ body {
     }
     .Clickbait {
         display: none;
+
     }
     .PHClickbait {
         display: block;
@@ -282,12 +284,17 @@ body {
         z-index: 2;
         font-size: 4vw ;
         text-align: center;
+        margin-top: 10%;
         color: rgb(68, 68, 68);
+    }
+    .Handwasher {
+        margin-top: 5%;
     }
     .Footer {
         text-align: center;
-        font-size: 3vw ;
-        margin-bottom: 1%;
+        font-size: 2.5vw ;
+        margin-top: 5%;
+        margin-bottom: 0%;
     }
 }
 
@@ -299,8 +306,7 @@ body {
         width: 100%;
         height: auto;  
         margin-top: -9%; 
-    }
-    
+    }  
     .Logo {
         position: relative;
         z-index: 2;
