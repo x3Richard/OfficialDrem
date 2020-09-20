@@ -110,6 +110,36 @@ body {
      margin-right: auto;
 }
 
+.TW {
+    position: relative;
+   z-index: 2;
+    display: block;
+    width: 50%;
+     height: auto;
+    margin-left: auto;
+     margin-right: auto;    
+    }
+
+.SC {
+    position: relative;
+     z-index: 2;
+     display: block;
+     width: 50%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.FB {
+     position: relative;
+     z-index: 2;
+     display: block;
+     width: 50%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+}
+
 .Subtitle {
     position: relative;
     z-index: 2;
@@ -123,7 +153,7 @@ body {
     z-index: 2;
     display: block;
     margin-top: 3%;
-    width: 7%;
+    width: 9%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -143,12 +173,14 @@ body {
 }
 
 
-.Grid {
+.Grid1 {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     margin-top: 3%;
 }
-
+.Grid2 {
+    display: none;
+}
 .Handwasher {
     position: relative;
     z-index: 2;
@@ -223,7 +255,7 @@ body {
         position: relative;
        z-index: 2;
         display: block;
-        width: 40%;
+        width: 80%;
          height: auto;
         margin-left: auto;
          margin-right: auto;    }
@@ -232,7 +264,7 @@ body {
         position: relative;
          z-index: 2;
          display: block;
-         width: 40%;
+         width: 80%;
          height: auto;
          margin-left: auto;
          margin-right: auto;
@@ -242,14 +274,45 @@ body {
          position: relative;
          z-index: 2;
          display: block;
-         width: 40%;
+         width: 80%;
          height: auto;
          margin-left: auto;
          margin-right: auto;
     }
-    .Grid {
+    .TW {
+        position: relative;
+       z-index: 2;
+        display: block;
+        width: 80%;
+         height: auto;
+        margin-left: auto;
+         margin-right: auto;    }
+    
+    .SC {
+        position: relative;
+         z-index: 2;
+         display: block;
+         width: 80%;
+         height: auto;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    
+    .FB {
+         position: relative;
+         z-index: 2;
+         display: block;
+         width: 80%;
+         height: auto;
+         margin-left: auto;
+         margin-right: auto;
+    }
+    .Grid1 {
+        display: none;
+    }
+    .Grid2 {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .Handwasher {
         position: relative;
@@ -269,7 +332,7 @@ body {
         z-index: 2;
         display: block;
         top: -2%;
-        width: 28%;
+        width: 35%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
